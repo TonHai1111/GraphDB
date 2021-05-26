@@ -1,0 +1,252 @@
+{
+    "ShortName": "AfriSAR_Mondah_Field_Data_1580",
+    "Version": "1",
+    "EntryTitle": "AfriSAR: Mondah Forest Tree Species, Biophysical, and Biomass Data, Gabon, 2016",
+    "DOI": {
+        "DOI": "10.3334/ORNLDAAC/1580",
+        "Authority": "https://doi.org"
+    },
+    "Abstract": "This dataset provides plot-level estimates of basal area, aboveground biomass, number of trees, maximum tree height, and basal-area-weighted wood specific gravity that were derived from observations of nearly 6,700 individual trees including tree family, species, DBH, the height of each tree, and their x, y location within 25 x 25 m subplots. These field data were collected from 15 1-hectare plots located across the Mondah Forest of Gabon as part of the AfriSAR Campaign in 2016. These biophysical and biomass data were used for training models to derive the AfriSAR remote sensing-based aboveground biomass products.",
+    "DataDates": [
+        {
+            "Type": "CREATE",
+            "Date": "2018-11-01T00:00:00.000Z"
+        },
+        {
+            "Type": "UPDATE",
+            "Date": "2018-11-01T00:00:00.000Z"
+        }
+    ],
+    "ProcessingLevel": {
+        "Id": "1B"
+    },
+    "CollectionProgress": "COMPLETE",
+    "RelatedUrls": [
+        {
+            "Description": "This link allows direct data access via the MAAP data archive",
+            "URLContentType": "DistributionURL",
+            "Type": "GET DATA",
+            "URL": "s3.console.aws.amazon.com/s3/buckets/cumulus-map-internal/file-staging/nasa-map/afriSAR_mondah_field_data___1"
+        },
+        {
+            "Description": "ORNL DAAC Data Set Documentation",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "URL": "https://daac.ornl.gov/AFRISAR/guides/AfriSAR_Mondah_Field_Data.html"
+        },
+        {
+            "Description": "Data set Landing Page DOI URL",
+            "URLContentType": "CollectionURL",
+            "Type": "DATA SET LANDING PAGE",
+            "URL": "https://doi.org/10.3334/ORNLDAAC/1580"
+        },
+        {
+            "Description": "AfriSAR: Rainforest Species, Biomass, Biophysical Measurements, Mondah Forest, Gabon: AfriSAR_Mondah_Field_Data.pdf",
+            "URLContentType": "PublicationURL",
+            "Type": "VIEW RELATED INFORMATION",
+            "Subtype": "GENERAL DOCUMENTATION",
+            "URL": "https://daac.ornl.gov/daacdata/afrisar/AfriSAR_Mondah_Field_Data/comp/AfriSAR_Mondah_Field_Data.pdf"
+        },
+        {
+            "URLContentType": "VisualizationURL",
+            "Type": "GET RELATED VISUALIZATION",
+            "URL": "https://daac.ornl.gov/graphics/browse/project/square/afrisar_logo_square.png"
+        }
+    ],
+    "ScienceKeywords": [
+        {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "BIOMASS"
+        },
+        {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "DOMINANT SPECIES"
+        },
+        {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "FOREST COMPOSITION/VEGETATION STRUCTURE"
+        },
+        {
+            "Category": "EARTH SCIENCE",
+            "Topic": "BIOSPHERE",
+            "Term": "VEGETATION",
+            "VariableLevel1": "VEGETATION SPECIES"
+        }
+    ],
+    "Platforms": [
+        {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD SURVEYS",
+            "Instruments": [
+                {
+                    "ShortName": "STEEL MEASURING TAPE"
+                },
+                {
+                    "ShortName": "VISUAL OBSERVATIONS"
+                }
+            ]
+        },
+        {
+            "Type": "In Situ Land-based Platforms",
+            "ShortName": "FIELD INVESTIGATION",
+            "Instruments": [
+                {
+                    "ShortName": "CLINOMETERS"
+                }
+            ]
+        }
+    ],
+    "TemporalExtents": [
+        {
+            "EndsAtPresentFlag": false,
+            "RangeDateTimes": [
+                {
+                    "BeginningDateTime": "2016-03-01T00:00:00.000Z",
+                    "EndingDateTime": "2016-03-23T23:59:59.000Z"
+                }
+            ]
+        }
+    ],
+    "SpatialExtent": {
+        "SpatialCoverageType": "HORIZONTAL",
+        "HorizontalSpatialDomain": {
+            "Geometry": {
+                "CoordinateSystem": "CARTESIAN",
+                "BoundingRectangles": [
+                    {
+                        "NorthBoundingCoordinate": 0.62,
+                        "WestBoundingCoordinate": 9.32,
+                        "EastBoundingCoordinate": 9.42,
+                        "SouthBoundingCoordinate": 0.54
+                    }
+                ]
+            }
+        },
+        "GranuleSpatialRepresentation": "CARTESIAN"
+    },
+    "DataCenters": [
+        {
+            "Roles": [
+                "DISTRIBUTOR"
+            ],
+            "ShortName": "MAAP Data Management Team",
+            "LongName": "Multi-Mission Algorithm and Analysis Platform Data Management Team"
+        }
+    ],
+    "MetadataLanguage": "eng",
+    "LocationKeywords": [
+        {
+            "Category": "CONTINENT",
+            "Type": "AFRICA",
+            "Subregion1": "CENTRAL AFRICA",
+            "Subregion2": "GABON"
+        }
+    ],
+    "AdditionalAttributes": [
+        {
+            "Name": "Number of Plots",
+            "Description": "For biomass field data collection, describes the number of locations, within a site, for which data is collected",
+            "Value": "15",
+            "DataType": "INT"
+        },
+        {
+            "Name": "Geolocated",
+            "Description": "Denotes whether the data is geolocated",
+            "Value": "true",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Spatial Resolution",
+            "Description": "Ground area imaged by a sensor’s instantaneous field of view",
+            "DataType": "FLOAT",
+            "ParameterUnitsOfMeasure": "hectares"
+        },
+        {
+            "Name": "Subplot Size",
+            "Description": "The area that a plot is divided into for uniform data collection",
+            "DataType": "FLOAT",
+            "ParameterUnitsOfMeasure": "hectares"
+        },
+        {
+            "Name": "Tree Height Measurement Status",
+            "Description": "Indication as to whether tree height measurements were taken at a field site",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Breast Height Measurement Status",
+            "Description": "Indication as to whether diameter breast height measurements were taken at a field site",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Breast Height",
+            "Description": "Height above the ground at which a tree diameter measurement is made",
+            "Value": "1.3",
+            "DataType": "FLOAT",
+            "ParameterUnitsOfMeasure": "meters"
+        },
+        {
+            "Name": "Data Format",
+            "Description": "File format of the associated granules",
+            "Value": "CSV",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Dataset Status",
+            "Description": "MAAP data product status",
+            "Value": "MAAP Standard Data Product",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Stem Mapped Status",
+            "Description": "Availability of individual tree location information",
+            "DataType": "BOOLEAN"
+        },
+        {
+            "Name": "Breast Height Modeled Status",
+            "Description": "Indicates whether the reported tree breast height is a model product",
+            "Value": "false",
+            "DataType": "BOOLEAN"
+        },
+        {
+            "Name": "Acquisition Type",
+            "Description": "Concise Platform-Instrument data collection method tag",
+            "Value": "In Situ Field",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Allometric Model",
+            "Description": "Citation of aboveground biomass model applied",
+            "Value": "Chave2014_pantropical",
+            "DataType": "STRING"
+        },
+        {
+            "Name": "Plot Area",
+            "Description": "Size of plot",
+            "Value": "1",
+            "DataType": "FLOAT",
+            "ParameterUnitsOfMeasure": "hectares"
+        }
+    ],
+    "MetadataDates": [
+        {
+            "Type": "CREATE",
+            "Date": "2018-11-14T20:12:00.000Z"
+        },
+        {
+            "Type": "UPDATE",
+            "Date": "2019-09-06T18:56:00.000Z"
+        }
+    ],
+    "Projects": [
+        {
+            "ShortName": "AfriSAR",
+            "LongName": "AfriSAR"
+        }
+    ]
+}
