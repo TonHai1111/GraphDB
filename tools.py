@@ -515,7 +515,7 @@ def buildCypherfromjson_Summarization(json_file, collection_concept_id):
             str(dict_obj["ProcessingLevel"]["ProcessingLevelDescription"]) + \
             "', viz_level:'N'}]->(pl)" 
         else:
-            ent_string += newline + "MERGE (c)-[:HAS]->(pl)"
+            ent_string += newline + "MERGE (c)-[:HAS {viz_level:'N'}]->(pl)"
     # MetadataLanguages
     if("MetadataLanguages" in dict_obj):
         ent_string += newline + "MERGE (ml:MetadataLanguages {Id:'" + \
